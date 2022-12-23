@@ -15,9 +15,7 @@
 
 ## 프로젝트 구조
 
----
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe863040-c3df-4e9a-9c64-d020ad870881/Untitled.png)
+![프로젝트구조]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe863040-c3df-4e9a-9c64-d020ad870881/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe863040-c3df-4e9a-9c64-d020ad870881/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221223T134852Z&X-Amz-Expires=86400&X-Amz-Signature=9c1f3d33b97a1d89ad43f2bd02b6dc3a7ca4ba88b545eb77a38323023b2ed490&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject))
 
 ## ERD
 
