@@ -4,13 +4,10 @@
 
 ## 프로젝트 주제
 
----
 
 - 커뮤니티 프로젝트
 
 ## 개발 목적
-
----
 
 - 고객의 니즈와 문제를 정리
 - 각종 개발 전략과 도메인 설계, 실무 디자인 패턴, 비즈니스 로직의 구현을 경험하는 것을 목표로 한다.
@@ -24,11 +21,8 @@
 
 ## ERD
 
----
 
 ## 개발 환경
-
----
 
 - 개발 도구 : Intellij IDEA Ultimate 2021.3.3
 - 소스코드 관리 : Git 2.39.0
@@ -36,8 +30,6 @@
 - Git GUI : GitKraken 8.5.0
 
 ## 사용 기술 스택
-
----
 
 - 언어 : Java 11, 17
 - 프레임워크 : SpringBoot 2.7.0
@@ -51,8 +43,6 @@
 - 배포 : AWS or Heroku
 
 ## 프로젝트 기능
-
----
 
 <aside>
 <img src="/icons/conversation_gray.svg" alt="/icons/conversation_gray.svg" width="40px" /> **커뮤니티 구현 기능**
