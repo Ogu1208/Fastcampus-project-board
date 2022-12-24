@@ -1,8 +1,6 @@
 # Zerobase Community Project
 
-
 ## 프로젝트 주제
-
 
 - 커뮤니티 프로젝트
 
@@ -17,7 +15,6 @@
 ![프로젝트구조](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe863040-c3df-4e9a-9c64-d020ad870881/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221223T134852Z&X-Amz-Expires=86400&X-Amz-Signature=9c1f3d33b97a1d89ad43f2bd02b6dc3a7ca4ba88b545eb77a38323023b2ed490&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
 ## ERD
-
 
 ## 개발 환경
 
@@ -41,8 +38,8 @@
 
 ## 프로젝트 기능
 
-
 **📌 주제별 구현 기능**
+
 - 주제1. 커뮤니티 과제
     - [ ]  게시물 검색 기능
     - [ ]  게시글 관리 (게시글 작성 / 게시글 목록 조회 / 작성된 게시글 편집 기능)
