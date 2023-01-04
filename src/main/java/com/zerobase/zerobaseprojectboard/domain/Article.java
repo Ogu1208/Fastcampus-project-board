@@ -3,7 +3,6 @@ package com.zerobase.zerobaseprojectboard.domain;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.core.annotation.Order;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
@@ -42,7 +41,7 @@ public class Article {
     @OrderBy("id")
     @OneToMany(mappedBy = "article", cascade = CascadeType.ALL)
     @ToString.Exclude
-    private final Set<ArticleComment> articleCommentSet = new LinkedHashSet<>();
+    private final Set<ArticleComment> articleComments = new LinkedHashSet<>();
 
     @CreatedDate
     @Column(nullable = false)

@@ -85,7 +85,7 @@ class JPARepositoryTest {
         Article article = articleRepository.findById(1L).orElseThrow();
         long previousArticleCount = articleRepository.count();
         long previousArticleCommentCount = articleCommentRepository.count(); // 글을 삭제하면 댓글도 삭제 (CASCADE)
-        int deletedCommentsSize = article.getArticleCommentSet().size();
+        int deletedCommentsSize = article.getArticleComments().size();
 
         String updatedHashtag = "#springboot";
         article.setHashtag(updatedHashtag);
