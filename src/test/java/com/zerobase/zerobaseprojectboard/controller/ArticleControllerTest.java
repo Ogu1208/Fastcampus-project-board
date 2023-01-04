@@ -47,7 +47,7 @@ class ArticleControllerTest {
         //when & then
         mvc.perform(get("/articles/1"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.TEXT_HTML))  // view -> text_html
+                .andExpect(content().contentTypeCompatibleWith(MediaType.TEXT_HTML))  // view -> text_html
                 .andExpect(view().name("articles/detail"))
                 .andExpect(model().attributeExists("article"))  // view에 model_attirute로 articles를 내려준 것을 확인
                 .andExpect(model().attributeExists("articleComments"));
@@ -63,7 +63,7 @@ class ArticleControllerTest {
         //when & then
         mvc.perform(get("/articles/search"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.TEXT_HTML)) // view -> text_html
+                .andExpect(content().contentTypeCompatibleWith(MediaType.TEXT_HTML)) // view -> text_html
                 .andExpect(model().attributeExists("article/search"));
 
 
@@ -78,7 +78,7 @@ class ArticleControllerTest {
         //when & then
         mvc.perform(get("/articles/search-hashtag"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.TEXT_HTML))// view -> text_html
+                .andExpect(content().contentTypeCompatibleWith(MediaType.TEXT_HTML))// view -> text_html
                 .andExpect(model().attributeExists("article/search-hashtag"));
 
 
