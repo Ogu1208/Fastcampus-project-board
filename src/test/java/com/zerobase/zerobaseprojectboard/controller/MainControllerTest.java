@@ -28,5 +28,4 @@ class MainControllerTest {
         mvc.perform(get("/"))
                 .andExpect(status().is3xxRedirection());
     }
-
 }
