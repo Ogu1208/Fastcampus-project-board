@@ -18,7 +18,7 @@ public interface ArticleCommentRepository extends
         QuerydslPredicateExecutor<ArticleComment>,
         QuerydslBinderCustomizer<QArticleComment>
 {
-    List<ArticleComment> findByArticle_Id(Long articleId);
+    List<ArticleComment> findByArticle_Id(Long articleId);  // JPA 문법(_)
     @Override
     default void customize(QuerydslBindings bindings, QArticleComment root) {
         bindings.excludeUnlistedProperties(true); // 선택적 필터 (기본적으로는 모든 필드에 대해 열려있음 - default:false)
